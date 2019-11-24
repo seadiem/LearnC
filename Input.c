@@ -5,7 +5,7 @@ void input() {
     void myGetLineIn(char *, int);
     void printCharArrayContent(char* array, int size);
 
-    int length = 100;
+    int length = 20;
     char line[length];
 
     myGetLineIn(line, length);
@@ -19,9 +19,9 @@ void myGetLineIn(char *line, int lim) {
     c = getchar();
     index = 0;
     while (c != '\n' && index < lim) {
+        *(line + index) = c;
         c = getchar();
         index += 1;
-        *(line + index) = c;
     }
 }
 

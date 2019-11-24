@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int main() {
     void arrays(void);
@@ -17,6 +16,8 @@ int main() {
     void testHack(void);
     void checkWhile(void);
     void input(void);
-    input();
+    void testPrint();
+    void testCustomPrint();
+    testCustomPrint();
     return 0;
 }
