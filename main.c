@@ -18,6 +18,8 @@ int main() {
     void input(void);
     void testPrint();
     void testCustomPrint();
-    testCustomPrint();
+    void checkPrintf();
+    void storeLines();
+    storeLines();
     return 0;
 }
